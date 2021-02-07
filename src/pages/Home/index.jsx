@@ -1,6 +1,6 @@
 import React from 'react';
 import { homeObj1, homeObj2, homeObj3, homeObj4 } from './Data';
-import { InfoSection, Events, About } from '../../components';
+import { InfoSection, About } from '../../components';
 
 function HomePage() {
   return (

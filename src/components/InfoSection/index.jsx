@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import Lottie from 'react-lottie';
 import { Container, Button } from '../../styles/globalStyle';
 import {
@@ -35,12 +35,8 @@ function InfoSection({
   animationData,
   btnLink,
 }) {
-  const [isStopped, setIsStopped] = useState(false);
-  const [isPaused, setIsPaused] = useState(false);
-
-  useEffect(() => {
-    console.log('bgImage=>', bgImage);
-  });
+  const [isStopped] = useState(false);
+  const [isPaused] = useState(false);
 
   const bg = bgImage && 'bg-image';
 

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Card, CardImg, CardContainer, CardFooter } from './styles';
 import event1 from '../../images/event1.jpg';
 

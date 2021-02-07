@@ -1,7 +1,4 @@
-import svg1 from '../../images/svg_online_discussion.svg';
 import svg2 from '../../images/event1.jpg';
-import svg3 from '../../images/svg_aircraft.svg';
-import animationData from '../../lottie/confetti-partyyy_bal.json';
 
 export const homeObj1 = {
   lightBg: true,

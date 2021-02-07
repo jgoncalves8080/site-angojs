@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { Container as Cont } from '../../styles/globalStyle';
+// import { Container as Cont } from '../../styles/globalStyle';
 
 const iconCSS = css`
   fill: #fff;

@@ -15,26 +15,26 @@ import {
   FooterSubText,
   Form,
   FormInput,
-  FooterLinksContainer,
-  FooterLinksWrapper,
-  FooterLinksItemns,
-  FooterLinkTitle,
-  FooterLink,
+  // FooterLinksContainer,
+  // FooterLinksWrapper,
+  // FooterLinksItemns,
+  // FooterLinkTitle,
+  // FooterLink,
   SocialMedia,
   SocialMediaWrapp,
   SocialLogo,
-  SocialIcon,
-  WebsiteRights,
+  // SocialIcon,
+  // WebsiteRights,
   SocialIcons,
   SocialIconLink,
   ImageLogo,
 } from './styles';
-import {
-  FooterLinkData1,
-  FooterLinkData2,
-  FooterLinkData3,
-  FooterLinkData4,
-} from './DataLinksFooter';
+// import {
+//   FooterLinkData1,
+//   FooterLinkData2,
+//   FooterLinkData3,
+//   FooterLinkData4,
+// } from './DataLinksFooter';
 
 import logo from '../../images/logo.png';
 
