@@ -17,7 +17,8 @@ export const Title = styled.h1`
 export const Container = styled.div`
   padding-top: 20px;
   width: 100%;
-  max-width: 1200px;
+  margin: 30px;
+  max-width: 1350px;
   margin-right: auto;
   margin-left: auto;
   display: grid;
