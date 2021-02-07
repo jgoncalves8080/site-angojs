@@ -5,9 +5,21 @@ const iconCSS = css`
   fill: #fff;
 `;
 
-export const Container = styled(Cont)`
+export const Title = styled.h1`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 2.5rem;
+  color: #1c2237;
+`;
+
+export const Container = styled.div`
   padding-top: 20px;
   width: 100%;
+  max-width: 1380px;
+  margin-right: auto;
+  margin-left: auto;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
