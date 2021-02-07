@@ -6,7 +6,7 @@ import {
   Nav,
   NavbarContainer,
   NavLogo,
-  NavIcon,
+  // NavIcon,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -75,11 +75,19 @@ function Navbar() {
               ))}
               <NavItemBtn>
                 {button ? (
-                  <NavBtnLink to="sign-up">
+                  <NavBtnLink
+                    href={
+                      'https://gmail.us7.list-manage.com/subscribe?u=15c8a2eac045ad27e371caba3&id=d72a2d8a6a'
+                    }
+                  >
                     <Button primary>SIGN UP</Button>
                   </NavBtnLink>
                 ) : (
-                  <NavBtnLink to="sign-up">
+                  <NavBtnLink
+                    href={
+                      'https://gmail.us7.list-manage.com/subscribe?u=15c8a2eac045ad27e371caba3&id=d72a2d8a6a'
+                    }
+                  >
                     <Button fontBig primary>
                       SIGN UP
                     </Button>
