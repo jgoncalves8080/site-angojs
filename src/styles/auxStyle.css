@@ -1,0 +1,5 @@
+.bg-image {
+  background: url('../images/bg.jpg') no-repeat !important;
+  background-size: cover;
+  background-position: bottom right;
+}
